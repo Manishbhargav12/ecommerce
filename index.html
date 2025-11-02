@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Pendant Design</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      /* background-color: #fafafa; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: url('back.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensures full-page fit */
+    }
+    header {
+      background: linear-gradient(90deg, #ff9a00, #ff6f00);
+      color: white;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .design-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 2rem;
+      padding: 1rem;
+    }
+    .design-box {
+      width: 180px;
+      height: 250px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: 0.3s;
+      overflow: hidden;
+    }
+    .design-box:hover {
+      transform: scale(1.05);
+    }
+    .pendant-image {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .design-name {
+      font-weight: 600;
+      color: #555;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    .book-btn {
+      background: linear-gradient(90deg, #ff9a00, #ff6f00);
+      border: none;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .book-btn:hover {
+      background: linear-gradient(90deg, #ffb84d, #ff8533);
+      transform: scale(1.08);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>Choose Your Pendant Design</header>
+
+  <div class="design-section">
+    <div class="design-box">
+      <img src="fab_collection09-20251102-0001.jpg" alt="Gold Circle Pendant" class="pendant-image">
+      <div class="design-name">Gold Circle</div>
+      <button class="book-btn">Book Now</button>
+    </div>
+
+    <div class="design-box">
+      <img src="_samiyacreation_2-20251102-0001.jpg" alt="Silver Pendant" class="pendant-image">
+      <div class="design-name">Silver Square</div>
+      <button class="book-btn">Book Now</button>
+    </div>
+
+    <div class="design-box">
+      <img src="_samiyacreation_2-20251102-0002.jpg" alt="Rose Gold Pendant" class="pendant-image">
+      <div class="design-name">Rose Gold Heart</div>
+      <button class="book-btn">Book Now</button>
+    </div>
+
+    <div class="design-box">
+      <img src="creation_samiya-20251102-0001.jpg" alt="Classic Pendant" class="pendant-image">
+      <div class="design-name">Classic Pendant</div>
+      <button class="book-btn">Book Now</button>
+    </div>
+    <div class="design-box">
+      <img src="Screenshot_2025-11-02-12-30-15-35_56a5d7f547b7ec4c705e63bf13c9c197.jpg" alt="Classic Pendant" class="pendant-image">
+      <div class="design-name">Classic Pendant</div>
+      <button class="book-btn">Book Now</button>
+    </div>
+    <div class="design-box">
+      <img src="ganpati_gift_gallery-20251102-0001.jpg" alt="Classic Pendant" class="pendant-image">
+      <div class="design-name">Classic Pendant</div>
+      <button class="book-btn">Book Now</button>
+    </div>
+  </div>
+</body>
+</html>
